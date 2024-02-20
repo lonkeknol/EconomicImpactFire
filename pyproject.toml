@@ -1,0 +1,13 @@
+[project]
+name = "EconomicImpactFire"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.7"
+license = {"file" = "LICENSE"}
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "openpyxl",
+    "ipykernel",
+]
